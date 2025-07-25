@@ -33,13 +33,13 @@ A Bash script to manage Linux users with SSH key setup and optional restrictions
 🔒 Restricted User Mode (-L)
 When using -L, the script:
 
-Creates a user with shell /bin/rbash
+- Creates a user with shell /bin/rbash
 
-Locks the user's .bash_profile with chattr +i
+- Locks the user's .bash_profile with chattr +i
 
-Sets a custom PATH to include only a bin folder with symbolic links
+- Sets a custom PATH to include only a bin folder with symbolic links
 
-Enables only limited commands (currently only ls)
+- Enables only limited commands (currently only ls)
 
 This is useful for creating users with minimal permissions in a controlled environment.
 
